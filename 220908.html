@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dl 연습</title>
+</head>
+<body>
+    <dl>
+        <dt>나의 통학수단</dt>
+        <dd>도보</dd>
+        <dd>택시</dd>
+        <dt>나의 식당(점심)</dt>
+        <dd>학생 식당</dd>
+        <dd>편의점(CU)</dd>
+        <dd>한솥도시락</dd>
+        <dd>롯데리아</dd>
+        <dd>수육국밥</dd>
+        <dd>봉구스밥버거</dd>
+    </dl>
+    <table>
+        <tr>
+            <th>학번</th>
+            <th>이름</th>
+            <th>성별</th>
+        </tr>
+        <tr>
+            <td>202102992</td>
+            <td>노영웅</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>202102995</td>
+            <td>박세희</td>
+            <td>여</td>
+        </tr>
+        <tr>
+            <td>202102998</td>
+            <td>박은서</td>
+            <td>여</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>학번</th>
+            <th>이름</th>
+            <th>성별</th>
+        </tr>
+        <tr>
+            <td>202102992</td>
+            <td>노영웅</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>202102995</td>
+            <td>박세희</td>
+            <td>여</td>
+        </tr>
+        <tr>
+            <td>202102998</td>
+            <td>박은서</td>
+            <td>여</td>
+        </tr>
+    </table>
+    <h3>colspan 예제</h3>
+    <table border="1">
+        <figcaption>
+            <b>인적사항</b>
+            <p>개인정보 입력 및 명세</p>
+        </figcaption>
+        <tr>
+            <th>학번</th>
+            <td>202102998</td>
+            <th>이름</th>
+            <td>박은서</td>
+        </tr>
+        <tr>
+            <th>성별</th>
+            <td colspan="3">여</td>
+            
+        </tr>
+        <tr>
+            <th>전화번호</th>
+            <td colspan="3">010-1234-5678</td>
+        </tr>
+        <tr>
+            <th>주소</th>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+    <table border="1" height="60">
+       <caption>colgroup 연습</caption>
+        <colgroup>
+            <col width="50px">
+            <col width="100px" span="2" style="background-color: aqua;">
+            <col width="200px" style="background-color: aquamarine;">
+        </colgroup>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>나의 신상명세카드</caption>
+        <colgroup>
+            <col style="background-color:lightpink">
+            <col>
+            <col style="background-color: aquamarine;">
+            <col>
+        </colgroup>
+        <tr>
+            <th>학과</th>
+            <td>인공지능학부</td>
+            <th>학번</th>
+            <td>202102998</td>
+        </tr>
+        <tr>
+            <th>이름</th>
+            <td>박은서</td>
+            <th>성별</th>
+            <td>여</td>
+        </tr>
+        <tr>
+            <th>전화번호</th>
+            <td colspan="3">010-1234-5678</td>
+        </tr>
+        <tr>
+            <th>이메일주소</th>
+            <td colspan="3">은서@이메일</td>
+        </tr>
+        <tr>
+            <th>주소</th>
+            <td colspan="3">충청남도 천안</td>
+        </tr>
+    </table>
+</body>
+</html>
